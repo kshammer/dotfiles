@@ -8,6 +8,10 @@ return require('packer').startup(function()
     use 'neovim/nvim-lspconfig'
     use 'simrat39/rust-tools.nvim'
     use 'rust-lang/rust.vim'
+    use 'cohama/lexima.vim'
     -- Misc 
     use 'ervandew/supertab'
+
+    use 'sheerun/vim-polyglot'
+    use 'evanleck/vim-svelte'
 end)
